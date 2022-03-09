@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="alx.css">
+    <link rel="stylesheet" href="boot.css">
+    <title>Alx-aid Tasks</title>
+</head>
+<body>
+    <section class="header">
+      
+        <nav class="navbar navbar-expand-md bg-light navbar-light mynav">
+          <div class="container">
+            <img src="logo.png" alt="" class="logo m-3" width="30" height="24">
+            <h1 class="text-dark"><span class="">alx-</span><span class="online">aid</span></h1>
+        
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link  lead" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link lead">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link lead">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </nav>
+    </section>
+
+    <!-- Locator -->
+    <section>
+     <div class="container lead text-secondary my-3">
+         <p><a href="index.html" class="lead text-secondary">Home</a> >> <a href="proj.html" class="lead text-secondary">Project</a> >> <a href="tasks.html" class="text-dark">Task</a></p>
+     </div>
+    </section>
+
+    <!-- Task section -->
+    <section class="my-5">
+        <div class="container my-3">
+            <h2 class="fw-bold my-3">Task Name</h2>
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Quiz
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Task #0
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Task #1
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <br><hr><br>
+
+    <!-- Tasks Feedback -->
+    <section>
+        <div class="container">
+            <h2 class="fw-bold my-3">Feeback</h2>
+            <p class="lead my-3">Please we'll like to hear from you! Kindly fill in your <strong>Complains, Corrections, etc</strong> We need this to serve you better!</p>
+            <form action="">
+                <div class="mb-3 form-text">
+                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="message here..." class="form-control"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+    <br><hr><br>
+
+    <!-- Contacts -->
+    <section class="m-5">
+        <div class="container">
+            <h2 class="fw-bold my-3">Contacts us via</h2>
+            <p class="fw-bold my-3">Email:</p><span>  alx-aid@gmail.com</span>
+            <p class="fw-bold my-3">Phone:</p><span>  +2340923495209</span>
+            <p class="fw-bold my-3">Facebook:</p><span>  alx-aid</span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark p-5 text-center">
+        <div class="container">
+            <p class="lead text-light">Copyright &copy;2022 Alx aid</p>
+        </div>
+    </footer>
+
+    <script src="boot.js"></script>
+    <script src="alx.js"></script>
+</body>
+</html>

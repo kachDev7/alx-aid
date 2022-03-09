@@ -1,0 +1,15 @@
+/* Stylesheet for Alx-aid web app */
+
+/* Varaibles */
+
+/* Universals */
+
+section a {
+    text-decoration: none;
+    color: unset;
+    outline: none;
+    border: none;
+}
+.boda{
+    border-radius: 5px ;
+}
